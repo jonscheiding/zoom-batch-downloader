@@ -50,6 +50,10 @@ GROUP_BY_TOPIC = True
 # Note: One "meeting" can have multiple recording instances.
 GROUP_BY_RECORDING = False
 
+# If True, recordings will be named with the meeting date at the beginning of the filename;
+# otherwise it will be at the end.
+NAME_RECORDINGS_DATE_FIRST = False
+
 # If True, participant audio files will be downloaded as well.
 # This works when "Record a separate audio file of each participant" is enabled.
 INCLUDE_PARTICIPANT_AUDIO = True

@@ -57,6 +57,9 @@ INCLUDE_PARTICIPANT_AUDIO = True
 # Set to True for more verbose output.
 VERBOSE_OUTPUT = False
 
+# Set to True to delete meetings that are successfully downloaded
+DELETE_AFTER_DOWNLOAD = False
+
 # Constants used for indicating size in bytes.
 B = 1
 KB = 1024 * B
